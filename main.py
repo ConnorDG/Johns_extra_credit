@@ -290,7 +290,7 @@ passwrd = animal + number
 n = 0
 website = input("ULR: ")
 web = webdriver.Chrome()
-web.get("https://www.google.com")
+web.get(website)
 text_box = input("textbox: ")
 submit_box = input("submit: ")
 time.sleep(1)
